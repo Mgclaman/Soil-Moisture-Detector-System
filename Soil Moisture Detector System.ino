@@ -1,8 +1,7 @@
-/* ****** ||                                     Created By Aman Sing Gurjar|| ****** 
-
+//                                 Created By Aman Sing Gurjar
 
  #include <LiquidCrystal.h>
-LiquidCrystal lcd(A0,A1,A2,A3,A4,A5 );//****
+LiquidCrystal lcd(A0,A1,A2,A3,A4,A5 );
 #define soil 9
 void setup() {
  pinMode(soil, INPUT);
